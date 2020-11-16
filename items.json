@@ -1,0 +1,98 @@
+{
+   "product": [
+       {
+           "serialNo": "1",
+           "name":" Hand Wash",
+           "quantity":"1",
+           "unit":"L",
+           "department": "Cleaning Essentials",
+           "notes":"Refiller",
+           "price": "120"
+       },
+       {
+        "serialNo": "2",
+        "name":"Tomato",
+        "quantity":"3",
+        "unit":" Kg ",
+        "department": "Vegetables & Fruits",
+        "notes":"",
+        "price": "40"
+    },
+    {
+        "serialNo": "3",
+        "name":"Onion",
+        "quantity":"5",
+        "unit":" Kg ",
+        "department": "Vegetables & Fruits",
+        "notes":"",
+        "price": "150"
+    },
+    {
+        "serialNo": "4",
+        "name":"Notebook",
+        "quantity":" 2 ",
+        "unit":"Pc ",
+        "department": "Stationary",
+        "notes":" Unruled, Sprial Binding",
+        "price": "100"
+    },
+    {
+        "serialNo": "5",
+        "name":"Pen",
+        "quantity":"2",
+        "unit":"Pc",
+        "department": "Stationary",
+        "notes":" Blue Ink, Red Ink",
+        "price": "20"     
+    },
+    {
+        "serialNo": "6",
+        "name":"Lentils",
+        "quantity":"4",
+        "unit":"Kg",
+        "department": "Grains & Pulses",
+        "notes":" Dal Parippu",
+        "price": "30"
+    },
+    {
+        "serialNo": "7",
+        "name":"Apple",
+        "quantity":"3",
+        "unit":"Kg",
+        "department": "Vegetables & Fruits",
+        "notes":" Shimla Apple",
+        "price": "300"
+    },
+    {
+        "serialNo": "8",
+        "name":"Wheat",
+        "quantity":"5 ",
+        "unit":" Kg ",
+        "department": "Grains & Pulses",
+        "notes":"",
+        "price": "150"
+    },
+    {
+        "serialNo": "9",
+        "name":"Potato",
+        "quantity":"1",
+        "unit":"Kg",
+        "department": "Vegetables & Fruits",
+        "notes":"",
+        "price": "40"
+    },
+    {
+        "serialNo": "10",
+        "name":"Detergent",
+        "quantity":"250",
+        "unit":"g",
+        "department": "Cleaning Essentials",
+        "notes":"",
+        "price": "30"
+    }
+   ]
+
+
+
+
+}

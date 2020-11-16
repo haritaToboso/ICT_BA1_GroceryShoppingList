@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grocery Shopping Site</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+<body>
+    <!-- <img src="images/supermarket_illo_2_1050x700.jpg" id="bg" alt=""> -->
+    <div id="container">
+    <!-- Header -->
+    <h1 id="animation-head"> ⋆✦ Grocery Shopping List ✦⋆</h1>
+    <!-- /Header ends here -->
+
+    <!-- Select Category -->
+    <div id="select-category">
+    <label>Select Category:</label>    
+    <select name="category-list" id="category-list" onchange="sortList();">
+        <option>Select</option>
+        <option>Vegetables & Fruits</option>
+        <option>Grains & Pulses</option>
+        <option>Stationary</option>
+        <option>Cleaning Essentials</option>
+    </select>
+    </div> <br>
+    <!-- Select Category ends here-->
+
+    <!-- Table Body -->
+    <div id="grocery-list-table">
+    </div>
+    <!-- Table Body ends here -->
+
+    <!-- Final Price -->
+    <div id="total-price">
+    </div>
+     <!-- Final Price ends here-->
+     <!-- Add new items -->
+            <!-- <div>
+                <button onclick="location.href='add-item.html';">Add new Item</button>
+            </div> -->
+    <!-- /Add new items -->
+    <!-- Footer -->
+    <!-- Footer ends here-->
+  </div>
+
+    <script src="script.js"></script> 
+
+
+
+</body>
+</html>

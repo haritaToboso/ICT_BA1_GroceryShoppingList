@@ -1,0 +1,73 @@
+html { 
+    background: url(images/supermarket_illo_2_1050x700.jpg); 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 99%;
+    animation: myMove 7s infinite;
+    border:3px solid black;
+    overflow: hidden;
+    
+  }
+
+body{
+    float: left;
+    margin-left: 40%;
+    margin-top: 1%;
+    border-radius: 15px 50px 30px;
+    background-color: pink;
+} 
+  
+h1{
+    text-align: center;
+    font-family: 'Courgette', cursive;
+    font-size: xx-large;
+}
+
+table{
+    border-collapse: collapse;
+    border: solid 1px black;   
+    margin:10px;
+    font-family: 'Zilla Slab', serif; 
+  
+    font-size: medium;
+}
+
+th{
+    border: solid 1px black;
+    padding :5px;
+}
+
+tr,td{
+    border: solid 1px black;
+    padding :5px;
+}
+
+#total-price{
+    float: right;
+    margin-right: 10px;
+    box-sizing: border-box;
+}
+
+/* label {
+    display: inline-block;
+    width: 150px;
+    margin-left: 10px;
+  } */
+
+
+@keyframes myMove{
+      0% {background-color: rgba(255, 255, 153, 0.932);}
+      30% {background-color: rgb(186, 253, 155);}
+      60% {background-color: rgb(133, 193, 241);}
+      100% {background-color: rgb(253, 183, 155);} 
+}
+
+#animation-head{
+
+  animation: pulse 3s infinite; /* referring directly to the animation's @keyframe declaration */
+ 
+}
+

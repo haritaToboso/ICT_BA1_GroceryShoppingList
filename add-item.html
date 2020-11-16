@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <title>Add Item</title>
+</head>
+<body>
+      <!-- <img src="images/supermarket_illo_2_1050x700.jpg" id="bg" alt=""> -->
+      <div id="container">
+        <!-- Header -->
+        <h1 id="animation-head"> ⋆✦ Grocery Shopping List ✦⋆</h1>
+       <!-- /Header ends here -->
+    <form>
+        <label>Name:</label><input type="text" id="name" class="form-group"> <br><br>
+        <label>Department: </label><input type="text" id="dept" class="form-group"> <br><br>
+        <label>Quantity: </label><input type="text" id="qty " class="form-group"><br><br>
+        <label>Unit:</label><input type="text" id="unit"><br><br>
+        <label>Price:</label><input type="text" id="price"><br><br>
+        <label>Notes:</label><input type="text" id="notes"><br><br>
+        <button onclick="additem()"> Add Item</button>
+    </form>
+    <script src="script.js"></script> 
+</body>
+</html>
